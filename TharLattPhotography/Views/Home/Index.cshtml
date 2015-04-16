@@ -1,0 +1,51 @@
+﻿    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="logo pull-left"><a class="stylenone" href="/">Thar Latt Photography</a></div>
+
+                <div class="topbarlinks pull-right">
+
+                    <a href="https://www.facebook.com/TharLattPhotography" target="_blank"><i class="fa fa-facebook"></i></a> <!-- your facebook link -->
+                    <!--<a href=""><i class="fa fa-linkedin"></i></a>--> <!-- your linkedin link -->
+                    <!--<a href=""><i class="fa fa-pinterest"></i></a>--> <!-- your pinterest link -->
+                    <a href="mailto:ngayit23@gmail.com"><i class="fa fa-envelope"></i></a> <!-- your email address -->
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container content">
+
+        <div class="clearfix">
+
+            <ul class="filter-nav">
+                <li class="active"><a data-id="all" href="">All</a></li>
+                <li><a data-id="portraits" href="">Portraits</a></li>
+                @*<li><a data-id="landscapes" href="">Landscapes</a></li>*@
+            </ul>
+
+        </div>
+
+        <div data-ng-controller="photosController">
+
+            <ul class="thumbnails" id="thumbnails">
+
+                <li data-ng-repeat="photo in photos" class="col-md-3" data-id="{{ photo.id }}" data-type="{{ photo.type }}">
+                    <a href="{{ photo.href }}" class="thumbnail">
+                        <img src="{{ photo.href }}" alt="" />
+                        <span class="caption"><i class="fa fa-plus"></i></span>
+                        <span class="thumbnail-fix"></span>
+                    </a>
+
+                </li>                
+            </ul>
+        </div>
+
+    </div>
+
+    <footer class="navbar navbar-default text-center padding-top-10">
+        Thar Latt Photography | &copy; 2014
+    </footer>
+
+</div>
+

@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\laurence\Desktop\Publish\TharLattPhotography</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="app/app.js">
+      <publishTime>09/19/2014 23:16:52</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/HelpPage.css">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Api.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/CollectionModelDescription.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ComplexTypeModelDescription.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/DictionaryModelDescription.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/EnumTypeModelDescription.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/InvalidSample.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/KeyValuePairModelDescription.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ModelDescriptionLink.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/SimpleTypeModelDescription.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/TextSample.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Index.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/ResourceModel.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Shared/_Layout.cshtml">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Web.config">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/_ViewStart.cshtml">
+      <publishTime>09/19/2014 21:53:29</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>09/19/2014 23:49:51</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>09/19/2014 23:49:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/19/2014 21:53:37</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/19/2014 21:53:33</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>09/19/2014 21:53:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/19/2014 21:53:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>09/19/2014 21:53:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>09/19/2014 21:53:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/19/2014 21:53:37</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>09/19/2014 21:53:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/19/2014 21:53:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>09/19/2014 21:53:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>09/19/2014 21:53:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>09/19/2014 21:53:36</publishTime>
+    </File>
+    <File Include="bin/TharLattPhotography.dll">
+      <publishTime>09/19/2014 23:49:46</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/19/2014 21:53:40</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/19/2014 21:55:40</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>09/19/2014 21:55:40</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/19/2014 21:55:40</publishTime>
+    </File>
+    <File Include="Content/font-awesome.css">
+      <publishTime>09/19/2014 21:55:50</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>09/19/2014 21:55:50</publishTime>
+    </File>
+    <File Include="Content/images/1 %281%29.jpg">
+      <publishTime>09/19/2014 21:59:09</publishTime>
+    </File>
+    <File Include="Content/images/1 %2810%29.jpg">
+      <publishTime>09/19/2014 21:59:09</publishTime>
+    </File>
+    <File Include="Content/images/1 %2811%29.jpg">
+      <publishTime>09/19/2014 21:59:09</publishTime>
+    </File>
+    <File Include="Content/images/1 %2812%29.jpg">
+      <publishTime>09/19/2014 21:59:09</publishTime>
+    </File>
+    <File Include="Content/images/1 %282%29.jpg">
+      <publishTime>09/19/2014 21:59:09</publishTime>
+    </File>
+    <File Include="Content/images/1 %283%29.jpg">
+      <publishTime>09/19/2014 21:59:09</publishTime>
+    </File>
+    <File Include="Content/images/1 %284%29.jpg">
+      <publishTime>09/19/2014 21:59:09</publishTime>
+    </File>
+    <File Include="Content/images/1 %285%29.jpg">
+      <publishTime>09/19/2014 21:59:09</publishTime>
+    </File>
+    <File Include="Content/images/1 %286%29.jpg">
+      <publishTime>09/19/2014 21:59:09</publishTime>
+    </File>
+    <File Include="Content/images/1 %287%29.jpg">
+      <publishTime>09/19/2014 21:59:09</publishTime>
+    </File>
+    <File Include="Content/images/1 %288%29.jpg">
+      <publishTime>09/19/2014 21:59:09</publishTime>
+    </File>
+    <File Include="Content/images/1 %289%29.jpg">
+      <publishTime>09/19/2014 21:59:09</publishTime>
+    </File>
+    <File Include="Content/shadowbox.css">
+      <publishTime>09/19/2014 21:59:43</publishTime>
+    </File>
+    <File Include="Content/site.css">
+      <publishTime>09/19/2014 21:59:43</publishTime>
+    </File>
+    <File Include="Content/toastr.css">
+      <publishTime>09/19/2014 23:42:29</publishTime>
+    </File>
+    <File Include="Content/toastr.less">
+      <publishTime>09/19/2014 21:55:06</publishTime>
+    </File>
+    <File Include="Content/toastr.min.css">
+      <publishTime>09/19/2014 21:55:06</publishTime>
+    </File>
+    <File Include="Content/toastr.scss">
+      <publishTime>09/19/2014 21:55:06</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/19/2014 21:53:29</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>09/19/2014 21:55:50</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>09/19/2014 21:55:50</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>09/19/2014 21:55:50</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>09/19/2014 21:55:50</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>09/19/2014 21:55:50</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/19/2014 21:55:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/19/2014 21:55:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/19/2014 21:55:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/19/2014 21:55:40</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>09/19/2014 22:00:03</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/19/2014 21:56:00</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>09/19/2014 23:49:47</publishTime>
+    </File>
+    <File Include="Scripts/angular-mocks.js">
+      <publishTime>09/19/2014 21:55:15</publishTime>
+    </File>
+    <File Include="Scripts/angular-route.js">
+      <publishTime>09/19/2014 21:55:17</publishTime>
+    </File>
+    <File Include="Scripts/angular-route.min.js">
+      <publishTime>09/19/2014 21:55:17</publishTime>
+    </File>
+    <File Include="Scripts/angular-route.min.js.map">
+      <publishTime>09/19/2014 21:55:17</publishTime>
+    </File>
+    <File Include="Scripts/angular-ui/ui-bootstrap-tpls.js">
+      <publishTime>09/19/2014 21:55:26</publishTime>
+    </File>
+    <File Include="Scripts/angular-ui/ui-bootstrap-tpls.min.js">
+      <publishTime>09/19/2014 21:55:26</publishTime>
+    </File>
+    <File Include="Scripts/angular-ui/ui-bootstrap.js">
+      <publishTime>09/19/2014 21:55:26</publishTime>
+    </File>
+    <File Include="Scripts/angular-ui/ui-bootstrap.min.js">
+      <publishTime>09/19/2014 21:55:26</publishTime>
+    </File>
+    <File Include="Scripts/angular.js">
+      <publishTime>09/19/2014 21:55:15</publishTime>
+    </File>
+    <File Include="Scripts/angular.min.js">
+      <publishTime>09/19/2014 21:55:15</publishTime>
+    </File>
+    <File Include="Scripts/angular.min.js.map">
+      <publishTime>09/19/2014 21:55:15</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/19/2014 21:55:40</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/19/2014 21:55:40</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.1.js">
+      <publishTime>09/19/2014 21:56:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.1.min.js">
+      <publishTime>09/19/2014 21:56:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.1.min.map">
+      <publishTime>09/19/2014 21:56:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery.easing.js">
+      <publishTime>09/19/2014 22:37:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery.quicksand.js">
+      <publishTime>09/19/2014 22:37:27</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>09/19/2014 21:53:39</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>09/19/2014 21:53:40</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>09/19/2014 21:53:40</publishTime>
+    </File>
+    <File Include="Scripts/shadowbox.js">
+      <publishTime>09/19/2014 22:00:20</publishTime>
+    </File>
+    <File Include="Scripts/site.js">
+      <publishTime>09/19/2014 22:00:20</publishTime>
+    </File>
+    <File Include="Scripts/toastr.js">
+      <publishTime>09/19/2014 21:55:06</publishTime>
+    </File>
+    <File Include="Scripts/toastr.min.js">
+      <publishTime>09/19/2014 21:55:06</publishTime>
+    </File>
+    <File Include="Scripts/toastr.min.js.map">
+      <publishTime>09/19/2014 21:55:06</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>09/19/2014 21:56:00</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/19/2014 23:43:08</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/19/2014 21:53:29</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/19/2014 23:47:30</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/19/2014 21:53:29</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/19/2014 21:53:29</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/19/2014 23:49:46</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
